@@ -1,0 +1,194 @@
+/* NAVBAR */
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+    color: #000;
+    font-weight:700;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	font-weight:900;
+}
+
+/* HEADER */
+header{
+    margin-top:25px;
+    background-image: url("../img/header2.png");
+    background-color: #1c1c1c;
+	background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.home-text {
+    padding-top: 15rem; /*144px*/
+    padding-bottom: 12rem;
+    color: #fff;
+}
+
+.home-text h3 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: 2.5em;
+}
+
+.home-text h5 {
+    font-size: 1.25em;
+}
+
+.home-lead-text {
+    padding-bottom: .8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* INTRO */
+.intro-section {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.intro-section h2 {
+    margin-top:0;
+    font-weight: bold;
+}
+
+.intro-lead-pgrh {
+    padding-bottom: 1rem;
+}
+
+/* LEARN TABS */
+.nav-tabs {
+    padding-bottom: 4.5rem;
+}
+.nav-tabs > li > a {
+    color: #000;
+    font-weight:bold;
+    border-radius: none; 
+    margin-right: 15px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.nav-tabs > li > a:hover {
+    border-bottom: 2px solid #000;
+}
+.nav-tabs > li.active > a {
+    border-radius: none;
+    border:none;
+    border-bottom: 2px solid #000;
+}
+
+.tab-content {
+    padding-top: 8rem;
+}
+
+/* OVERVIEW TAB */
+.overview-row {
+    margin-bottom: 3rem;
+}
+
+.course, .certification {
+    padding-bottom: 2.5rem;
+}
+
+.view-all-pgrh {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#courses, #certifications {
+    margin-bottom: 4rem;
+}
+
+/* CTA SECTIONS */
+.cta-section {
+    background-color: #f3f3f3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 8rem;
+    border-radius: 10px;
+}
+
+.cta-section h2 {
+    padding-left: 2rem;
+}
+
+.cta-signup-pgrh {
+    padding-top: 3rem;
+}
+
+/* SECTION STORY */
+.story-section {
+    background-color: #f3f3f3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 8rem;
+}
+
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
+
+.story-text {
+    border-left: 3px solid #000;
+    padding-left: 30px;
+    padding-bottom: 2rem;
+}
+
+.story-author {
+    padding-left: 30px;
+    color: #cccccc;
+    text-transform: uppercase;
+}
+
+/* Q&A SECTION */
+.qa-section {
+    margin-bottom: 8rem;
+}
+.qa-section h2 {
+    padding-bottom: 3rem;
+}
+
+.question {
+    font-weight:bold;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background-color: #f3f3f3;
+}
+
+.footer h3 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: #cccccc;
+}
+
+
+/* Custom Media Queries*/
+@media (max-width: 650px) {
+    .course, .certification {
+        text-align:center;
+    }
+
+    .nav-tabs > li > a {
+        margin-right:0;
+    }
+
+    .cta-signup-pgrh {
+        text-align:center;
+    }
+
+    header {
+        background-image:none;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .top-buffer {
+        margin-top: 3rem;
+    }
+}
+
